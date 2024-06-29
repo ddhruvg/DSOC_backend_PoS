@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><h1>Fill the follwoing from to add transaction details into database</h1></p>
+    <form id="editForm" method="post" action="/api/create">
+        <label>transaction id</label>
+        <input type="text" name="t_id" value="">
+        <label>customer id</label>
+        <input type="text" name="c_id" value="">
+        <label>transaction date</label>
+        <input type="text" name="t_date" value="">
+        <label>trasaction amount</label>
+        <input type="text" name="t_amount" value="">
+        <label>transaction category</label>
+        <input type="text" name="t_category" value="">
+        <button class="full-width" type="submit">
+          sumbit
+        </button>
+    </form>
+        
+</body>
+</html>
